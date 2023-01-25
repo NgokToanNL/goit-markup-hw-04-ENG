@@ -33,7 +33,7 @@
     --logo-color-white: #F4F4FD;
     --header-bg-clr: #FFFFFF;
     --hero-bg-clr: #2E2F42;
-    --benefits-bg-clr: #E5E5E5;
+    --benefits-bg-clr: #FFFFFF;
     --team-bg-clr: #F4F4FD;
     --footer-bg-clr: #2E2F42;
     --accent-color: #4D5AE5; 
@@ -290,12 +290,15 @@ img {
 /* Team */
 
 .section.team {
+    padding-top: 120px;
+    padding-bottom: 120px; 
+
     background-color: var(--team-bg-clr);
 }
 
 .team .container {
-    padding-top: 120px;
-    padding-bottom: 120px;  
+    /* padding-top: 120px;
+    padding-bottom: 120px;   */
 }
 
 .team .section-title {
@@ -348,12 +351,14 @@ img {
 /* Footer */
 
 .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
     background-color: var(--footer-bg-clr);
 }
 
 .footer .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+
 }
 
 .logo > .white {
@@ -361,10 +366,14 @@ img {
 }
 
 .logo.footer {
+    display: flex;
     margin-bottom: 16px;
+    padding: 0;
+
 }
 
 .footer .text {
+    margin: 0;
     width: 264px;
 
     color: var(--footer-text-color);
@@ -381,7 +390,7 @@ img {
     display: none;
 }
 
-.portfolio .container {
+.portfolio .content {
     padding-top: 96px;
     padding-bottom: 120px;
 }
